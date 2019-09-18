@@ -7,6 +7,7 @@ const plugins = require('./webpack.plugins');
 module.exports = {
   context: path.join(config.root, config.paths.src),
   entry: [
+    // '@babel/polyfill',
     path.join(config.root, config.paths.src, 'javascripts/scripts.js'),
     path.join(config.root, config.paths.src, 'stylesheets/styles.scss'),
   ],
@@ -27,6 +28,9 @@ module.exports = {
     open: true,
     port: config.port,
     host: config.dev_host,
+    allowedHosts: [
+      '.ngrok.io'
+    ]
   },
   module: {
     rules: loaders,

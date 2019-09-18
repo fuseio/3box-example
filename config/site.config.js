@@ -12,7 +12,7 @@ const config = {
   site_name: 'Fuse 3box',
 
   // Your website's description, used for favicon meta tags
-  site_description: 'A modern boilerplate for static website development',
+  site_description: 'Fuse - 3box helper',
 
   // Your website's URL, used for sitemap
   site_url: '',

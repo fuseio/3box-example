@@ -1,20 +1,16 @@
 {
   "name": "static-site-boilerplate",
   "description": "A modern boilerplate for static website development",
-  "version": "1.1.0",
-  "homepage": "http://staticsiteboilerplate.com",
+  "version": "0.1.0",
   "author": {
-    "name": "Eric Alli",
+    "name": "Fuse.io",
     "url": "http://ericalli.com"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ericalli/static-site-boilerplate.git"
+    "type": "git"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ericalli/static-site-boilerplate/issues"
-  },
+  "bugs": {},
   "keywords": [
     "html5",
     "css3",
@@ -79,15 +75,20 @@
   },
   "dependencies": {
     "3box": "^1.10.10",
+    "@babel/polyfill": "^7.6.0",
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
     "enquirer": "^2.3.1",
+    "ethereumjs-util": "^6.1.0",
+    "ethereumjs-wallet": "^0.6.3",
     "figlet": "^1.2.3",
     "ftp-deploy": "^2.3.3",
     "jquery": "^3.4.1",
     "normalize.css": "^8.0.1",
     "reset-css": "^4.0.1",
     "sanitize.css": "^11.0.0",
+    "web3": "^1.2.1",
+    "web3-provider-engine": "git+https://github.com/mikeshultz/web3-provider-engine.git#skipcache-option",
     "webpack-dev-server": "^3.8.0"
   }
 }
